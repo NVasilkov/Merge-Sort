@@ -46,7 +46,7 @@ void merge (int array[], int start_1, int end_1, int start_2, int end_2)
     }
     
     //copy sorted values from the temp back to original array 
-    for (i = 0; j < SIZE; i++)
+    for (i = 0; i < SIZE; i++)
     {
         array[i] = temp[i];
     }
